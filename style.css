@@ -6,10 +6,21 @@
 
 :root {
   font-size: 62.5%;
+
+  --tt-heading: #0c3440;
+  --tt-label: #00453a;
+  --tt-input: #212529;
+  --ot-input: #02799d;
+  --bd-input: rgba(73, 80, 87, 0.3);
+  --tt-placeholder: rgba(73, 80, 87, 0.5);
+  --bg-button: var(--ot-input);
+  --tt-error: #f03e3e;
 }
+
 body {
   background-color: #040924;
   font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
 }
 
 .content {
