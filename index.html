@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +17,24 @@
   <body>
     <div class="content">
       <main class="card">
-        <h1>Cálculo de IMC</h1>
+        <form action="">
+          <h1 class="title">Cálculo de IMC</h1>
+          <div class="input-wrapper">
+            <label for="weight">Peso (kg)</label>
+            <input type="text" name="" id="weight" placeholder="100" />
+          </div>
+          <div class="input-wrapper">
+            <label for="height">Altura (m)</label>
+            <input type="text" name="" id="height" placeholder="100" />
+          </div>
+          <button type="submit">
+            Calcular IMC
+            <img
+              src="./assets/arrow.svg"
+              alt="imagem de uma flecha para a direita"
+            />
+          </button>
+        </form>
       </main>
     </div>
   </body>
