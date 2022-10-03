@@ -15,7 +15,7 @@
   --bd-input: rgba(73, 80, 87, 0.3);
   --tt-placeholder: rgba(73, 80, 87, 0.5);
   --bg-button: var(--ot-input);
-  --tt-error: #f03e3e;
+  --bg-error: #f03e3e;
   --bg-input: #dce2e9;
 }
 
@@ -146,4 +146,28 @@ form button:hover {
 
 .modal button:hover {
   transform: scale(1.1);
+}
+
+/* alert-error */
+
+.alert-error.open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.alert-error {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: var(--bg-error);
+  text-align: center;
+  font-weight: bold;
+  color: var(--tt-button);
+  opacity: 0;
+  visibility: hidden;
+  padding-block: 0.8rem;
+  transform: translateY(-30px);
+  transition: transform 0.5s;
 }
